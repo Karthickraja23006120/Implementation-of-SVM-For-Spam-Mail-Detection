@@ -8,7 +8,7 @@ To write a program to implement the SVM For Spam Mail Detection.
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-  1.Import the necessary python packages using import statements.
+1.Import the necessary python packages using import statements.
 
 2.Read the given csv file using read_csv() method and print the number of contents to be displayed using df.head().
 
@@ -19,14 +19,14 @@ To write a program to implement the SVM For Spam Mail Detection.
 5.Print all the outputs.
 
 6.End the Program.
- 
 
 ## Program:
 ```
-/*
 Program to implement the SVM For Spam Mail Detection..
 Developed by: Karthick Raja K
-RegisterNumber:212223240066
+RegisterNumber: 212223240066
+```
+```PY
 import chardet
 file='spam.csv'
 with open (file,'rb') as rawdata:
@@ -63,26 +63,30 @@ y_pred
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
-*/
 ```
-
 ## Output:
-![SVM For Spam Mail Detection](sam.png)
-![Screenshot 2024-11-07 111746](https://github.com/user-attachments/assets/8858dc8b-97b5-4fe9-8948-fcb2abe3d0ec)
-## data.head()
-![Screenshot 2024-11-07 111758](https://github.com/user-attachments/assets/13c83d03-23ae-49c3-8fb9-66d4bc489517)
-## data.tail()
-![Screenshot 2024-11-07 111804](https://github.com/user-attachments/assets/bd79481d-2237-4cf7-a95c-d2ae7b3e8326)
-## data.info()
-![Screenshot 2024-11-07 111814](https://github.com/user-attachments/assets/918e245a-ea81-48d6-89a7-0c96caad115f)
-## data.isnull().sum()
-![Screenshot 2024-11-07 111827](https://github.com/user-attachments/assets/81705a0a-44eb-41c7-afc8-645f261162fd)
-## Prediction y
-![Screenshot 2024-11-07 111836](https://github.com/user-attachments/assets/1020bccb-3622-4382-9752-577610b4e0a0)
-## Accuracy
-![Screenshot 2024-11-07 111842](https://github.com/user-attachments/assets/d9a48267-587e-4444-a04d-734c40dbcafb)
+## Encoding:
+![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/ed87456c-9dd8-418d-a960-1abad11477f2)
 
 
+## Head():
+![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/8e2c3fec-2fe3-40c3-923a-1a1c3719e734)
+
+
+## Info():
+![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/b48518c5-c983-44d3-9cc2-14924033aa91)
+
+
+## isnull().sum():
+![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/50754f89-e886-48c3-a285-44b76317b605)
+
+
+## Prediction of y:
+![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/8f3a2d63-9aa6-4da2-95c4-d53b87fde998)
+
+
+## Accuracy:
+![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/d1dcce16-dc32-4ec2-a042-ce25bee461da)
 
 
 ## Result:
